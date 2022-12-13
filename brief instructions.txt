@@ -1,0 +1,16 @@
+Follow instructions specified on the nordicsemi website to install required tools:
+https://developer.nordicsemi.com/nRF_Connect_SDK/doc/latest/nrf/gs_assistant.html
+From the Toolchain Manager pick NRF Connect SDK v2.2.0.
+
+Create a new application and get a sample application working as instructed on:
+https://nrfconnect.github.io/vscode-nrf-connect/get_started/build_app_ncs.html
+Build and flash the application to the nRF52840. Once working replace the main 
+source file with the new one provided and flash that to the nRF.
+
+Set up a terminal to interact with the application. E.g. PuTTY: 
+https://developer.nordicsemi.com/nRF_Connect_SDK/doc/latest/nrf/gs_testing.html
+
+Provide longitude and latitude values as prompted from the terminal. Use the nRF 
+Connect app from smartphone or equivalent to scan and find your recently flashed 
+device "AT Device". EIR packet based on the values provided in the terminal can 
+be seen under RAW.
